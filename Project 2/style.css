@@ -1,0 +1,124 @@
+body {
+    background-image: url(login-purple.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:" poppins", sans-serif;
+}
+
+
+.mainbox {
+    background: transparent;
+    border: 2px solid rgba(225,225,225, .2);
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 10px rgba(0,0,0,.3);
+    width: 420px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+} 
+
+.mainbox p {
+    font-size: 0.85rem;
+}
+
+.mainbox a {
+    font-size: 0.75rem;
+}
+.mainbox h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225,225,225, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.mainbox .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.mainbox .checkbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px ;
+    cursor: pointer;
+}
+
+.checkbox label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.checkbox a {
+    color: #fff;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+
+.mainbox .foot {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.foot  a  {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.foot  p  {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.foot p a:hover {
+    text-decoration: underline;
+}
